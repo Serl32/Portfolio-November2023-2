@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header > nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header > nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header > nav > ul > li {
+    display: inline;
+}
+
+header > nav > ul > li > a {
+    text-decoration: none;
+}
+
+main > section {
+    width: 80vw;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.greeting-section {
+    width: 90vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
