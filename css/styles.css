@@ -13,20 +13,26 @@ header > nav > ul {
 header > nav {
     display: flex;
     justify-content: flex-end;
+    padding: 25px;
 }
 
 header > nav > ul > li {
     display: inline;
+    margin: 10px;
 }
 
 header > nav > ul > li > a {
     text-decoration: none;
+    padding: 14px 25px;
+    display: inline-block;
+    border-radius: 2px;
 }
 
 main > section {
     width: 80vw;
     margin: 40px auto;
     padding: 20px;
+    border-radius: 10px;
 }
 
 .greeting-section {
@@ -36,4 +42,6 @@ main > section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border-radius: 2px;
+    margin-top: 0;
 }
