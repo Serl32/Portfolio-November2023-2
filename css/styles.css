@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: #10002b;
 }
 
 header > nav > ul {
@@ -31,11 +32,16 @@ header > nav > ul > li > a {
     background: #7b2cbf;
 }
 
+main {
+    color: white;
+}
+
 main > section {
     width: 80vw;
     margin: 40px auto;
     padding: 20px;
     border-radius: 10px;
+    background: #3c096c;
 }
 
 .greeting-section {
@@ -47,4 +53,6 @@ main > section {
     flex-direction: column;
     border-radius: 2px;
     margin-top: 0;
+    background: #3c096c url("/css/assets/theme-image.jpg") no-repeat;
+    background-size: cover;
 }
