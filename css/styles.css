@@ -58,6 +58,6 @@ main > section {
     flex-direction: column;
     border-radius: 2px;
     margin-top: 0;
-    background: #3c096c url("/css/assets/theme-image.jpg") no-repeat;
+    background: #3c096c url("./assets/theme-image.jpg") no-repeat;
     background-size: cover;
 }
