@@ -50,8 +50,10 @@ main > section {
 }
 
 .greeting-section {
-    width: 90vw;
+    width: 100vw;
     height: 100vh;
+    padding: 0;
+    max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
