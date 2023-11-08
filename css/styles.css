@@ -73,4 +73,5 @@ main > section {
     margin-top: 0;
     background: #3c096c url("./assets/theme-image.jpg") no-repeat;
     background-size: cover;
+    font-family: 'Roboto Mono', system-ui, -apple-system, sans-serif;
 }
